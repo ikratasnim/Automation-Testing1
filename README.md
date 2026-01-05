@@ -1,11 +1,19 @@
 
+
 # Automation-Testing1
 
-This repository contains media files and resources related to automation testing, CI/CD, change management, and software testing life cycle.
+This repository contains:
+- Automated test suites for Creator LMS (WordPress plugin) using Playwright
+- Media files and resources related to automation testing, CI/CD, change management, and software testing life cycle
 
-## Folder Structure
+## Folder & File Structure
 
-- `media/` — Contains audio, video, images, and PDF resources.
+- `media/` — Audio, video, images, and PDF resources
+- `tests/` — Automated Playwright test files and subfolders (e.g., quiz, matching-quiz)
+- `package.json` — Project dependencies and scripts
+- `package-lock.json` — Dependency lock file
+- `playwright.config.js` — Playwright test configuration
+- `README.md` — Project documentation
 
 ## How to Use
 
@@ -13,11 +21,16 @@ This repository contains media files and resources related to automation testing
    ```sh
    git clone https://github.com/ikratasnim/Automation-Testing1.git
    ```
-2. Explore the `media` folder for available resources.
+2. Install dependencies (if running tests):
+   ```sh
+   npm install
+   npx playwright install
+   ```
+3. Explore the `media` folder for resources or the `tests` folder for test suites.
 
 ## Contributing
 
-Feel free to open issues or submit pull requests for improvements or additional resources.
+Feel free to open issues or submit pull requests for improvements, additional tests, or resources.
 
 ## License
 
